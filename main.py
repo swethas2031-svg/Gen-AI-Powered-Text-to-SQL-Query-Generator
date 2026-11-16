@@ -841,7 +841,6 @@ with right_col:
         # Voice input: record a natural-language question with the microphone.
         voice_audio = st.audio_input(
             "🎤 Speak your question",
-            sample_rate=16000,
             key="voice_query_audio",
             help="Example: Show all employees from the IT department.",
         )
