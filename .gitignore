@@ -179,3 +179,5 @@ __pycache__/
 *.pyc
 .env
 users.json
+*.db
+*.sqlite3
